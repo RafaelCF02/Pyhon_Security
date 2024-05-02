@@ -21,10 +21,10 @@ while True:
     palavra = str(input('Digite a palavra a ser transformada em hash: '))
 
     escolha = input('''Voce deseja transoforma em
-                    1-[MD5]
-                    2-[SHA256]
-                    3-[SHA1]
-                    4-[SHA512]
+                    1) MD5
+                    2) SHA256
+                    3) SHA1
+                    4) SHA512
                     : ''')
     
     if escolha[0] == '1':
